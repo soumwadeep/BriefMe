@@ -25,9 +25,9 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link" href="/Features">
+              {/* <Link className="nav-link" href="/Features">
                 Features
-              </Link>
+              </Link> */}
               <Link className="nav-link" href="/Contact">
                 Contact
               </Link>

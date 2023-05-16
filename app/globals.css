@@ -8,10 +8,32 @@ body {
       #4158d0 0%,
       #c850c0 46%,
       #ffcc70 100%);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
   min-height: 100vh;
   color: white !important;
   overflow-x: hidden !important;
 }
+
+/* Vertically Align Centre */
+.outer {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  /* max-width: 400px; */
+}
+
 
 .brand {
   font-weight: 600 !important;
@@ -27,13 +49,20 @@ body {
   max-width: 600px;
 }
 
-.formfix input {
+.formfix input  {
   background: transparent !important;
   color: white !important;
 }
 
 .navbar {
   font-size: 22px;
+}
+
+.imgfix
+{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 .mobnav {

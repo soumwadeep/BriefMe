@@ -33,7 +33,7 @@ const page = () => {
       length: "3",
     },
     headers: {
-      "X-RapidAPI-Key": "87445144bamshac178df693a78b1p142a79jsn7a84a7bd9cb7",
+      "X-RapidAPI-Key": "13511bb581msh1923b690d834d6ap1d0f42jsne1ef0cb13e10",
       "X-RapidAPI-Host": "article-extractor-and-summarizer.p.rapidapi.com",
     },
     // Old Key: Reuse In Aug: b8959aad42msh3b2a09859555e2bp15fadcjsn2d84d320e1d0
