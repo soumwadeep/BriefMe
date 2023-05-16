@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;900&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif !important;
+  font-weight: 400;
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%);
+  min-height: 100vh;
+  color: white !important;
+  overflow-x: hidden !important;
+}
+
+.brand {
+  font-weight: 600 !important;
+}
+
+.main-content {
+  padding-left: 30px;
+}
+
+.formfix {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+.formfix input {
+  background: transparent !important;
+  color: white !important;
+}
+
+.navbar {
+  font-size: 22px;
+}
+
+.mobnav {
+  display: none;
+}
+
+/* Summarize Result */
+.result {
+  background-color: #ffcc70;
+  color: black !important;
+  font-weight: 500 !important;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.articles-link {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+
+.text-red {
+  color: orangered;
+}
+
+.recent-one {
+  background-color: antiquewhite;
+  width: 95%;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Remove Google Branding */
+#google_translate_element {
+  color: transparent;
+}
+
+#google_translate_element a {
+  display: none;
+}
+
+.translator {
+  display: block;
+  overflow: hidden !important;
+}
+
+div.goog-te-gadget {
+  color: transparent !important;
+}
+
+.goog-te-combo {
+  border: 1px solid rebeccapurple !important;
+  border-radius: 15px;
+  font-size: 18px !important;
+  padding: 5px;
+  /* margin-top: -0.05px!important; */
+  color: rebeccapurple;
+}
+
+/* Mobile Navbar */
+@media only screen and (max-width: 600px) {
+  /* .pcnav {
+    display: none !important;
+  }
+
+  .mobnav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around !important;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #c850c0;
+    background-size: cover;
+    font-size: 20px;
+    overflow-x: scroll;
+    -webkit-box-shadow: -1px 2px 26px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 26px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 26px 8px rgba(0, 0, 0, 0.75);
+  } */
+
+  .result {
+    width: 90% !important;
+  }
+}
