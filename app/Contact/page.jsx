@@ -23,7 +23,7 @@ const page = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://briefme.soumwadeepguha.com/contact"
+            value="https://briefme.soumwadeepguha.com/thankyou"
           />
         </div>
         <div className="mb-3">
